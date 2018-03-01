@@ -10,6 +10,8 @@ http://www.localfinancial.co.uk/
 Everything on one page
 	can link to more in depth pages as and when they become available or worth while
 
+Some items listed below will not be required, others may be better suited being skeletoned out and then made live once enough conent has been created for them.
+
 top nav bar
 	float
 	logo left most object
