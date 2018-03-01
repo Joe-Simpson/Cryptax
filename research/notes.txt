@@ -7,7 +7,8 @@ http://www.danosassociates.com/consulting/
 http://www.ifa-direct.com/
 http://www.localfinancial.co.uk/
 
-
+Everything on one page
+	can link to more in depth pages as and when they become available or worth while
 
 top nav bar
 	float
@@ -23,5 +24,10 @@ top nav bar
 		Team
 		Social
 		Blog/Crypto news
+			This might be a good way to show that you are keeping on top of the new regulations and general status of the cryptosphere. Simply stating facts, no opinions. forces people to contact you.
 		Contact Us
 	Search(?)
+Big portrait picture with inspirational summary of the companies goal(s)
+Run through the sections of the Nav bar
+Team comes with bio and photos
+Interactive Contact Us at the bottom
