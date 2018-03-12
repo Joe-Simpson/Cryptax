@@ -1,5 +1,5 @@
 body { 
-  padding-top: 90px;
+  padding-top: 56px;
 }
 
 nav {
@@ -8,10 +8,27 @@ nav {
   z-index: 1;
 }
 
+#hero-landing {
+  background-image: url("../images/1.jpg");
+  background-color: #cccccc;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+.jumbotron {
+  background-color: transparent;
+  color: #eeeeee;
+}
+
 #contact-us {
   color: #eeeeee;
   background-color: #455a64;
   padding-top: 20px;
+  box-shadow: 0 -2px -5px rgba(0,0,0,.26);
 }
 
 #contact-us-message {
