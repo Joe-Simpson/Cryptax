@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
 
     <title>Crypto Space Consultancy</title>
   </head>
@@ -21,9 +23,12 @@
           <img src="assets/brand/csc.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
           Crypto Space Consultancy
         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
         <!-- Links -->
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav bd-navbar-nav flex-row">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto bd-navbar-nav" data-toggle="collapse" data-target="#navbarSupportedContent">
             <li class="nav-item">
               <a class="nav-link" href="#about_approach">About/Aproach</a>
             </li>
@@ -31,44 +36,26 @@
               <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">Team</a>
+              <a class="nav-link" href="#team">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">Contact Us</a>
+              <a class="nav-link" href="#contact-us">Contact Us</a>
             </li>
           </ul>  
         </div>
         
-        <!-- Search --> 
+        <!-- Search - Removed until functionality created --> 
+        <!--
         <form class="form-inline">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
+        -->
       </div>
     </nav>
     <!-- Landing page/image -->
-    <div class="container">
+    <div class="container-fluid">
       <ul>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
-        <li>sdiofjsdfij</li>
         <li>sdiofjsdfij</li>
         <li>sdiofjsdfij</li>
         <li>sdiofjsdfij</li>
@@ -76,9 +63,13 @@
       </ul>  
     </div>
     <!-- About/Aproach -->
-    <div class="container" id="about_approach"></div>
+    <div class="container-fluid" id="about_approach">
+      
+    </div>
     <!-- Services -->
-    <div class="container" id="services"></div>
+    <div class="container-fluid" id="services">
+      
+    </div>
     <!-- ?Experience? -->
 
     <!-- ?Clients? -->
@@ -86,17 +77,62 @@
     <!-- ?Testimonials? -->
 
     <!-- Team -->
-    <div class="container" id="team"></div>
+    <div class="container-fluid" id="team">
+      
+    </div>
 
     <!-- ?Social? -->
 
     <!-- ?Blog/Crypto News? -->
 
     <!-- Contact Us -->
-    <div class="container" id="contact_us"></div>
+    <div class="container-fluid" id="contact-us">
+      <div class="container-fluid">
+        <div class="row">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="row">
+          <h4><i class="far fa-envelope"></i>  exampleEmail@email.com</h4>
+        </div>
+        <div class="row">  
+          <h4><i class="fas fa-phone"></i>  +44(0)374 987 637</h4>
+        </div>
+      </div>
+      <br>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" placeholder="Name" id="contact-us-name">
+          </div>
+          <div class="form-group col-md-6">
+            <input type="email" class="form-control" placeholder="Email" id="contact-us-email">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <textarea class="form-control" placeholder="Message" id="contact-us-message"></textarea>
+          </div>
+        </div>
+        <div class="form-row justify-content-end">
+          <div class="form-group">
+            <button type="button" class="btn btn-outline-light btn-large">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
 
     <!-- Footer/Legal Sh*t -->
-    
+    <div class="container-fluid" id="legal">
+      <div class="row justify-content-between">
+        <div class="col-lg-4">
+          <p>Crypto Space Consultancy</p>
+        </div>
+        <div class="col-lg-1">
+          <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+          <a href="https://facebook.com/"><i class="fab fa-facebook-square"></i></a>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom (js/main.js) -->
