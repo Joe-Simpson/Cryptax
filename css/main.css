@@ -1,5 +1,6 @@
 body { 
   padding-top: 56px;
+  background-color: black;
 }
 
 nav {
@@ -9,7 +10,7 @@ nav {
 }
 
 #hero-landing {
-  background-image: url("../images/1.jpg");
+  background-image: url("../images/1.svg");
   background-color: #cccccc;
   height: 100%;
   width: 100%;
@@ -17,11 +18,19 @@ nav {
   background-position: center;
   background-size:cover;
   background-attachment: fixed;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#testy {
+  margin: 0px;
+  padding: 0px;
 }
 
 .jumbotron {
   background-color: transparent;
   color: #eeeeee;
+  opacity: 0.8;
 }
 
 #contact-us {
