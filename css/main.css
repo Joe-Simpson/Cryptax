@@ -1,6 +1,6 @@
 body { 
   padding-top: 56px;
-  background-color: black;
+  background-color: #455a64;
 }
 
 nav {
@@ -22,20 +22,46 @@ nav {
   padding-right: 0px;
 }
 
-#testy {
-  margin: 0px;
-  padding: 0px;
-}
-
 .jumbotron {
   background-color: transparent;
   color: #eeeeee;
   opacity: 0.8;
 }
 
+.display-4 {
+  text-decoration: underline;
+}
+
+#team {
+  color: #eeeeee;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+#team-card {
+  max-width: 18rem;
+  background-color: #1c313a;
+}
+
+.card-img-top {
+  border-style: solid;
+  border-color: #4ba3c7;
+  border-width: 0.6em;
+  background-color: black;
+  margin: 2%;
+  width: 96%;
+}
+
 #contact-us {
   color: #eeeeee;
-  background-color: #455a64;
+  /*background-color: #1c313a;*/
   padding-top: 20px;
   box-shadow: 0 -2px -5px rgba(0,0,0,.26);
 }
@@ -49,4 +75,5 @@ nav {
   color: #eeeeee;
   padding-top: 15px;
   font-size: 1.5em;
+  /*border-top: black solid;*/
 }
